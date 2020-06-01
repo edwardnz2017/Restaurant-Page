@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background: url(tuscany.png);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    list-style: none;
+    padding: 0 10px;
+    margin: 10px;
+    display: table-cell;
+    font-weight: bold;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    display: table;
+    table-layout: fixed;
+    text-align: center;
+    background-color: #BADA55;
+    height: 65px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+li:hover {
+    background-color: #A3C43B;
+}
+#name {
+    font-size: 100px;
+    font-family: 'Cookie', cursive;
+    margin: 0 0 0 100px;
+}
+main {
+    text-align: center;
+    margin: 100px;
+}
+#intro-div {
+    border-radius: 4px;
+    margin: 0px;
+}
+#intro-div h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+}
+#intro-div p {
+    font-size: 30px;
+    line-height: 3;
+}
+main {
+    width: 100%;
+    margin: 0px;
+}
+#about-div {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#contact-div {
+    margin: 200px auto;
+}
